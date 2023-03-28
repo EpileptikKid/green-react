@@ -1,0 +1,41 @@
+.product_container {
+  background-color: lightgray;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.color_c {
+  background-color: lightgreen;
+}
+
+.color_u {
+  background-color: lightcoral;
+}
+
+.textArea {
+  font-size: 2vw;
+  width: 80%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .textArea {
+    font-size: 2vw; /* размер шрифта для широкого экрана */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .textArea {
+    font-size: 3vw; /* размер шрифта для узкого экрана */
+  }
+}
+
+.buttonArea {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}

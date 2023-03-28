@@ -1,0 +1,18 @@
+.client_box {
+  margin: 10px;
+  background-color: lightgrey;
+  border-radius: 15px;
+  padding: 15px;
+  color: black;
+  font-weight: bolder;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+.color_client_c {
+  background-color: lightgreen;
+}
+
+.color_client_u {
+  background-color: lightcoral;
+}
