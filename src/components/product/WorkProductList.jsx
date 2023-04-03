@@ -12,7 +12,6 @@ const WorkProductList = ({ data, client }) => {
 
   useEffect(() => {
     setProducts(data)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [client])
 
   const [redirect, setRedirect] = useState(false)

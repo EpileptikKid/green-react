@@ -31,7 +31,6 @@ const WorkComponent = () => {
       }
     }
     fetchData()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clientList])
 
   const redirect = () => {

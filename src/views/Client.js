@@ -16,7 +16,6 @@ const Client = (props) => {
     })
       .then((response) => response.json())
       .then((data) => setClient(data))
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
